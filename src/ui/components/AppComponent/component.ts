@@ -1,6 +1,6 @@
 import Component, { tracked } from '@glimmer/component';
 
-export default class MyApp extends Component {
+export default class AppComponent extends Component {
   @tracked current = 0;
   speakers = ['Tom', 'Yehuda', 'Ed'];
 
